@@ -4,24 +4,15 @@
 #include <iostream>
 
 template <typename Container>
-void print(Container& c)
+void print(Container &c)
 {
-    std::cout << "--begin--" << std::endl;
 
-    auto b = std::begin(c);
-    std::cout << "really begin" << std::endl;
-    auto e = std::end(c);
-
-    
-    for(auto i = b; i != e; ++i)
+    for (auto &item : c)
     {
-        std::cout << *i << std::endl;
+        std::cout << item << ",";
     }
-    // for(auto& foo : c)
-    // {
-    //     std::cout << foo << std::endl;
-    // }
-    std::cout << "--end--" << std::endl;
+
+    std::cout << std::endl;
 }
 
 #endif
