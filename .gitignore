@@ -36,3 +36,7 @@
 
 #VSCode
 .vscode
+
+#build folders
+/debug
+/release
