@@ -1,5 +1,5 @@
-#ifndef WHERE_H_
-#define WHERE_H_
+#ifndef RANGE_X_H
+#define RANGE_X_H
 
 #include <functional>
 #include <iterator>
